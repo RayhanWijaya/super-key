@@ -1,2 +1,2 @@
 # super-key
-A multi-method password generator.
+A customizable password generator.
