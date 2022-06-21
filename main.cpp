@@ -5,6 +5,9 @@
 
 #include "data/includeChar.h"
 
+#include "methods/alter.h"
+#include "methods/random.h"
+
 void greet() {
 	std::cout << "super-key \n";
 
