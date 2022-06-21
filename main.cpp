@@ -3,6 +3,8 @@
 #include <vector>
 #include <map>
 
+#include "data/includeChar.h"
+
 void greet() {
 	std::cout << "super-key \n";
 
