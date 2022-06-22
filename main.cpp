@@ -9,6 +9,8 @@
 #include <time.h>
 
 #include "utils/parse/parseInt.h"
+#include "utils/input/intInput.h"
+#include "utils/input/stringInput.h"
 
 #include "data/includeChar.h"
 
