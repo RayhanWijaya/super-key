@@ -6,6 +6,7 @@
 #include <stdexcept>
 #include <cstdlib>
 #include <cctype>
+#include <time.h>
 
 #include "data/includeChar.h"
 
