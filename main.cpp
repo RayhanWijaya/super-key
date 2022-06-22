@@ -3,6 +3,8 @@
 #include <vector>
 #include <map>
 
+#include <stdexcept>
+
 #include "data/includeChar.h"
 
 #include "methods/alter.h"
