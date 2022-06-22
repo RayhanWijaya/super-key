@@ -5,6 +5,7 @@
 
 #include <stdexcept>
 #include <cstdlib>
+#include <cctype>
 
 #include "data/includeChar.h"
 
