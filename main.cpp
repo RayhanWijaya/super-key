@@ -8,6 +8,8 @@
 #include <cctype>
 #include <time.h>
 
+#include "utils/parse/parseInt.h"
+
 #include "data/includeChar.h"
 
 #include "methods/alter.h"
