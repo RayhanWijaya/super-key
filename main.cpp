@@ -4,6 +4,7 @@
 #include <map>
 
 #include <stdexcept>
+#include <cstdlib>
 
 #include "data/includeChar.h"
 
