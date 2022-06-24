@@ -13,6 +13,7 @@
 #include "utils/input/stringInput.h"
 
 #include "data/includeChar.h"
+#include "data/charForms.h"
 
 #include "methods/alter.h"
 #include "methods/random.h"
