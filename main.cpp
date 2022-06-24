@@ -33,6 +33,7 @@ void greet() {
 
 int main() {
 	greet();
+	srand(time(0));
 	
 	return 0;
 }
