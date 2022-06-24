@@ -34,6 +34,21 @@ void greet() {
 int main() {
 	greet();
 	srand(time(0));
+
+	std::string password;
+	std::string method;
+	struct includeChar passIncludeChar;
+
+	stringInput("Method: ", method);
+
+	if (method == "alter") {
+		std::string passwordToAlter;
+		stringInput("Enter a password to alter: ", passwordToAlter);
+
+		password = methodAlter(passwordToAlter, passIncludeChar);
+	}
+
+	std::cout << "Generated Password: " << password << '\n';
 	
 	return 0;
 }
