@@ -41,13 +41,19 @@ int main() {
 
 	stringInput("Method: ", method);
 
-	if (method == "alter") {
+	if (method == "random") {
+		int passLength;
+		intInput("Password Length: ", passLength);
+
+		password = methodRandom(passLength, passIncludeChar);
+	}
+	else if (method == "alter") {
 		std::string passwordToAlter;
 		stringInput("Enter a password to alter: ", passwordToAlter);
 
 		password = methodAlter(passwordToAlter, passIncludeChar);
 	}
-
+	
 	std::cout << "Generated Password: " << password << '\n';
 	
 	return 0;
